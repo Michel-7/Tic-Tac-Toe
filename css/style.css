@@ -11,6 +11,7 @@ body{
 }
 h1{
     font-size: 70px;
+
 }
 .wrapper{
     max-width: 1440px;
@@ -113,6 +114,35 @@ color:white;
      .left{
          margin-bottom: 50px;
      }
-     
+     @media only screen and (max-width:600px) {
+         h1{
+             font-size: 2rem;
+         }
+        
+         .game{
+            width: 250px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+        }
+        .left{
+            margin-bottom: 20px;
+            margin-top:8px;
+        }
+         .right{
+             margin-top:8px;
+         }
+         .wrapper{
+            
+            justify-content: flex-start;
+        
+        }
+        .restart{
+            width:160px;
+            height:50px;
+            
+        }
+         
+     }
 }
 
